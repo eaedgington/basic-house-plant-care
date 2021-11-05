@@ -1,0 +1,167 @@
+/*General Styles*/
+html {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #A5A58D;
+
+}
+.header {
+    text-align: center;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #B7B7A4;
+    
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: auto;
+}
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color:  #A5A58D;
+    color: black;
+    padding: 1em 1em;
+    margin: .5em;
+}
+body a:hover {
+    background: #B7B7A4;
+}
+footer {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+/*SECTION Styles*/
+.homecontent {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.carecontent1 {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.carecontent2 {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 2em;
+}
+.carecontent3 {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 2em;
+}
+.carecontent4 {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 2em;
+}
+
+/*ASIDE Styles*/
+.aside1 {
+    flex: 2;
+    text-align: center;
+    background-color: #F0EFEB;
+    padding-top: 4em;
+}
+.aside2 {
+    flex: 2;
+    text-align: left;
+    background-color: #F0EFEB;
+    padding-top: 6em;
+    padding-right: 2em;
+}
+.aside3 {
+    flex: 2;
+    text-align: right;
+    background-color: #F0EFEB;
+    padding-top: 6em;
+    padding-left: 2em;
+}
+.aside4 {
+    flex: 2;
+    text-align: left;
+    background-color: #F0EFEB;
+    padding-top: 6em;
+    padding-right: 2em;
+}
+.aside5 {
+    flex: 2;
+    text-align: right;
+    background-color: #F0EFEB;
+    padding-top: 6em;
+    padding-left: 2em;
+}
+
+/*IMG Styles*/
+#plant2 {
+    max-width: 30%;
+    flex: 2;
+}
+#myplants {
+    padding-top: 3em;
+}
+#myplants2 {
+    max-width: 50%;
+    padding-left: 22em;
+}
+#plant1 {
+    max-width: 30%;
+    flex: 2;
+}
+#cactus {
+    max-width: 30%;
+    flex: 2;
+}
+#succulent {
+    max-width: 30%;
+    flex: 2;
+}
+#plant5 {
+    max-width: 30%;
+    flex: 2;
+}
+
+/* TABLE STYLES */
+.first {
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  .first td, .first th {
+    border: 2px solid black;
+    padding: 1em;
+  }
+  tr {
+    text-align: center;
+    background: #F0EFEB;
+  }
+  .first tr:nth-child(even) {
+    background: #F0EFEB;
+  }
+  th {
+    background:#B7B7A4;
+  }
+  #source {
+    text-align: center;
+    padding-top: 1em;
+    
+  }
+  #careheader {
+    text-align: center;
+    padding-top: 2em;
+  }
